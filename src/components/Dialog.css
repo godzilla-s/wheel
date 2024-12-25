@@ -1,0 +1,28 @@
+
+.model-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.model-content {
+    background-image: url("assets/spart-02.gif");
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.model-content h2 {
+    color: #e1f102;
+    font-size: 36px;
+}
+
+.model-content h3 {
+    color: chartreuse;
+}
