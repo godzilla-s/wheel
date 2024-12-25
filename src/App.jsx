@@ -1,6 +1,7 @@
 import { useRef } from 'react';
 
 import { PhaserGame } from './game/PhaserGame';
+import '@twa-dev/sdk';
 
 function App ()
 {
