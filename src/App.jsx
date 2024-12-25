@@ -5,11 +5,8 @@ import '@twa-dev/sdk';
 
 function App ()
 {
-
     //  References to the PhaserGame component (game and scene are exposed)
     const phaserRef = useRef();
-
-
     return (
         <div id="app">
             <PhaserGame ref={phaserRef}/>
