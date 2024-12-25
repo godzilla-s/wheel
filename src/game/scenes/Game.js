@@ -1,7 +1,6 @@
 /* eslint-disable no-undef */
 import { Scene } from 'phaser';
 import { EventBus } from '../EventBus';
-// import { EventBus } from '../EventBus';
 
 export class Game extends Scene
 {
